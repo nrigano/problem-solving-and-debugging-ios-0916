@@ -1,6 +1,15 @@
 # Problem Solving and Debugging
 Coding is the process of identifying and solving problems. The intent of this document is to serve as a high-level reference for diving into a complex problem, as well as mitigating against, identifying, and squashing bugs. Read through and follow these steps to avoid and solve problems in your code.
 
+### Quick Hit List
+
+* Clearly **define all your inputs and outputs**.
+* **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
+* Write code that conforms to the **Single Responsiblity Principle**. Every class, method, and function should have a single purpose.
+* **Don't Repeat Yourself**. If you write or copy and paste the same code, stick it in a separate method and call the method when needed.
+* **Check your variables**. Use logs, breakpoints, and your debugger to check the relevant data getting passed around and acted upon in your code. Make logs frequent and descriptive, with details on what's getting called, what's expected to happen, and what the contents of the data are.
+* **Don't dwell on problems by yourself**. What might take hours of frustration and digging through code may be answered with a few minutes of searching online or by asking others for help.
+
 ## How to Solve Complex Problems
 A complex problem is the combination of multiple simple problems. Therefore, **the most important step in solving a complex problem is to break it down into the smallest possible pieces.**
 
