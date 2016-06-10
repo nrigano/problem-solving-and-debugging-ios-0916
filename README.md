@@ -38,7 +38,7 @@ It's much easier to diagnose a problem when
 A good place to start debugging is to track the value of your variables.
 
 ### Logging
-Use `NSLog` in Objective-C and `print()` in Swift to write out messages to the console in Xcode. It's good practice to insert logs as you write your code, long before any problem arises, so you can more easily visualize the flow of your program as it runs. An effective log should contain a brief description of where it is, what is going on, and what the contents are of relevant variables. Such a log message might look like this:
+It's good practice to insert logs as you write your code, long before any problem arises, so you can more easily visualize the flow of your program as it runs. An effective log should contain a brief description of where it is, what is going on, and what the contents are of relevant variables. Such a log message might look like this:
 
 ```
 addNewCustomerToDeliLine method in AppDelegate just called with customer dictionary:
@@ -56,9 +56,11 @@ Descriptive logs make it easier to identify variables that contain unexpected va
 Add in breakpoints!
 
 ### Print Objects
+Use your debugger to show the value attached to variables.
 
 ## Resources
 ### Google
 ### Stack Overflow
 ### RyPress
 ### NSHipster
+### Other People
