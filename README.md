@@ -2,7 +2,7 @@
 Coding is the process of identifying and solving problems. The intent of this document is to serve as a high-level reference for diving into a complex problem, as well as mitigating against, identifying, and squashing bugs. Read through and follow these steps to avoid and solve problems in your code.
 
 ## Quick Hit List
-
+* **Think about the steps real world analogies** for the problem.
 * Clearly **define all your inputs and outputs**.
 * **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
 * Write code that conforms to the **Single Responsiblity Principle**. Every class, method, and function should have a single purpose.
@@ -14,7 +14,10 @@ Coding is the process of identifying and solving problems. The intent of this do
 ## How to Solve Complex Problems
 A complex problem is the combination of multiple simple problems. Therefore, **the most important step in solving a complex problem is to break it down into the smallest possible pieces.**
 
-* Start with the inputs and outputs.
+* Think before you speak (i.e., consider before you code).
+  * Describe and write down each step of what you want to do without using code. Use a real world analogy to think about those steps. (E.g., I have a deck of cards and only want to hold onto the hearts, so I pick up the first card and check the suit. If it's a heart...)
+  * Think about the real world domain. How does a given process or object behave in real life? (E.g., when I deal out my deck of cards, I remove one card from the top of the deck and...)
+* Identify the inputs and outputs.
   * Determine what the expected result should look like and all the attributes you know the result should have.
   * Next, do the same for the all the ingredients that will be used to reach the desired output. If you don't know what the ingredients are, figure out what's available and determine what of that is relevant to the problem.
   * Write the inputs and outputs down, and as with your code, be clear and detailed. Oftentimes if the inputs and outputs of a problem are defined clearly enough, and with enough detail, the solution becomes clear.
@@ -42,7 +45,7 @@ A good place to start debugging is to track the value of your variables. You may
 It's good practice to insert logs as you write your code, long before any problem arises, so you can more easily visualize the flow of your program as it runs. An effective log should contain a brief description of where it is, what is going on, and what the contents are of relevant variables. Such a log message might look like this:
 
 ```
-addNewCustomerToDeliLine method in AppDelegate just called with customer dictionary:
+addNewCustomerToDeliLine method in Deli class just called with customer dictionary:
 {
 	"name" = "Kanye West",
 	"food" = "ham on ham with ham",
