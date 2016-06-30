@@ -7,6 +7,7 @@ Coding is the process of identifying and solving problems. The intent of this do
 * **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
 * Write code that conforms to the **Single Responsiblity Principle**. Every class, method, and function should have a single purpose.
 * **Don't Repeat Yourself**. If you write or copy and paste the same code, stick it in a separate method and call the method when needed.
+* **Read all warning and error messages**. These messages are presented for your benefit, and will either illuminate an unapparent bug or provide a point from which to start the debugging process.
 * **Check your variables**. Use logs, breakpoints, and your debugger to check the relevant data getting passed around and acted upon in your code. Make logs frequent and descriptive, with details on what's getting called, what's expected to happen, and what the contents of the data are.
 * **Don't dwell on problems by yourself**. What might take hours of frustration and digging through code may be answered with a few minutes of searching online or by asking others for help.
 
@@ -30,6 +31,9 @@ Each class and method should have a single responsibility, and should call on ot
 
 ## Don't Repeat Yourself (DRY)
 If you find yourself writing the same code multiple times, put it in a separate method and call that when necessary. This creates fewer potential points of failure and will make refactoring easier, if necessary.
+
+## Error/Warning Messages
+Error messages and warnings are provided for your benefit. If you get an error or warning message, take a moment to read through it. Many simple, but unapparent, problems will be made clear, and you will now have a point from which to start your search for a solution to more complex problems.
 
 ## Check Variables
 A good place to start debugging is to track the value of your variables. You may find that variables don't hold the values you expect, or don't hold any value at all. There are several ways to examine the values your variables hold.
@@ -55,8 +59,11 @@ Add in breakpoints to watch as variables in your code are declared, instantiated
 ## Resources
 There are many resources you can and should use to help solve problems and debug your code. Every major problem you come across can be broken down into smaller problems, and almost every one of those smaller problems has been experienced and solved by someone else.
 
+### Documentation
+Official documentation is an often-overlooked resource for problem solving, and should be the starting point for much of your debugging. Use documentation to understand the capabilities, properties, and characteristics of the elements of your code. If you're not sure what something can do, or how to interact with or implement a piece of code, dig into the documentation.
+
 ### Google
-This should always be your first stop. Simply searching for an error code or a clear description of the problem you face will bring you multiple potential solutions. If relevant results aren't showing up, try being more with your search terms, or abstracting your search to describe the general problem you wish to solve.
+This should always be your first stop after the documentation. Simply searching for an error code or a clear description of the problem you face will bring you multiple potential solutions. If relevant results don't show up, increase the specificity of your search terms. Conversely, you can abstract your search to more generally describe the problem at hand.
 
 ### Other People
 Don't spend more than an hour trying to solve a problem on your own. After you've exhausted online resources, talk to your neighbors. See if anyone around you has experienced and solved the problem you face, and **ask not what the solution is, but how you can solve the problem on your own**. If your neighbors also wind up stumped, and a thorough search on the internet turns up nothing, it's time to ask an instructor.
