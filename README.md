@@ -1,7 +1,7 @@
 # Problem Solving and Debugging
 Coding is the process of identifying and solving problems. The intent of this document is to serve as a high-level reference for diving into a complex problem, as well as mitigating against, identifying, and squashing bugs. Read through and follow these steps to avoid and solve problems in your code.
 
-### Quick Hit List
+## Quick Hit List
 
 * Clearly **define all your inputs and outputs**.
 * **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
@@ -67,3 +67,5 @@ This should always be your first stop after the documentation. Simply searching 
 
 ### Other People
 Don't spend more than an hour trying to solve a problem on your own. After you've exhausted online resources, talk to your neighbors. See if anyone around you has experienced and solved the problem you face, and **ask not what the solution is, but how you can solve the problem on your own**. If your neighbors also wind up stumped, and a thorough search on the internet turns up nothing, it's time to ask an instructor.
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/problem-solving-and-debugging'>Problem Solving And Debugging</a> on Learn.co and start learning to code for free.</p>
