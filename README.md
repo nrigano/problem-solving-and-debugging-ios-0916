@@ -6,6 +6,7 @@ Coding is the process of identifying and solving problems. The intent of this do
 * Clearly **define all your inputs and outputs**.
 * **Break your complex problem into smaller problems**, then break those down even further until you see patterns and problems you recognize.
 * Write code that conforms to the **Single Responsiblity Principle**. Every class, method, and function should have a single purpose.
+* Make sure the names of every class, function, and variable are **relevant, clear, and descriptive**.
 * **Don't Repeat Yourself**. If you write or copy and paste the same code, stick it in a separate method and call the method when needed.
 * **Read all warning and error messages**. These messages are presented for your benefit, and will either illuminate an unapparent bug or provide a point from which to start the debugging process.
 * **Check your variables**. Use logs, breakpoints, and your debugger to check the relevant data getting passed around and acted upon in your code. Make logs frequent and descriptive, with details on what's getting called, what's expected to happen, and what the contents of the data are.
@@ -31,6 +32,9 @@ A complex problem is the combination of multiple simple problems. Therefore, **t
 One of the most important steps of debugging is to prevent bugs from being created in the first place. An important concept to which your code should adhere is the Single Responsibility Principle.
 
 Each class and method should have a single responsibility, and should call on other classes or methods as necessary to achieve additional functionality. Try to apply this priciple at each scope of your code.
+
+## Descriptive Naming
+Ensure every variable, function, class, or other element you name is clearly descriptive of what it holds, returns, or does. For instance, a method that checks the validity of an email address and returns a boolean should be called `isValidEmail`. We're able to assume a function called `appendDateToString` will do just as its title says and add a date to the end of a string, because the name is descriptive and clear. You might call the return of that function `appendedStringWithDate`.
 
 ## Don't Repeat Yourself (DRY)
 If you find yourself writing the same code multiple times, put it in a separate method and call that when necessary. This creates fewer potential points of failure and will make refactoring easier, if necessary.
